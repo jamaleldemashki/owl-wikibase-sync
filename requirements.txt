@@ -1,0 +1,17 @@
+# Core pipeline dependencies
+rdflib>=6.3,<7.0
+pandas>=2.0,<3.0
+python-dotenv>=1.0,<2.0
+wikibaseintegrator>=0.12,<0.13
+requests>=2.31,<3.0
+tenacity>=8.2,<9.0
+tqdm>=4.66,<5.0
+
+# Notebook execution
+jupyter>=1.0,<2.0
+ipykernel>=6.29,<8.0
+nbformat>=5.9,<6.0
+nbconvert>=7.16,<8.0
+
+# Testing
+pytest>=7.4,<10.0
